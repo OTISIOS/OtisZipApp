@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OtisZipApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>DC48D9BC0520911D377BB2C4AD8BA53A58AF3383</string>
+				<key>dateExpires</key>
+				<string>23/08/1940 Saka</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>DC48D9BC0520911D377BB2C4AD8BA53A58AF3383</string>
+						<key>dateExpires</key>
+						<string>23/08/1940 Saka</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>SSZipArchive.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>XGZYVQ6U6J</string>
+						<key>name</key>
+						<string>SRINIVASARAO LADI</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>XGZYVQ6U6J.com.otis.otisZipApp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>XGZYVQ6U6J</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>XGZYVQ6U6J.com.otis.otisZipApp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>OtisZipApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a81390dc-f487-47ef-abe5-2f9e88264a27</string>
+				<key>name</key>
+				<string>OtisZip</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>XGZYVQ6U6J</string>
+				<key>name</key>
+				<string>SRINIVASARAO LADI</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

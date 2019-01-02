@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OtisZipApp/MasterViewController.swift"
+            timestampString = "563368442.7872421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OtisZipApp/DetailViewController.swift"
+            timestampString = "563368442.787714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "getAllFilesFromPath(path:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OtisZipApp.DetailViewController.getAllFilesFromPath(path: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "OtisZipApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srinivas/Projects/Japan_App/OtisZipApp/OtisZipApp/DetailViewController.swift"
+                  timestampString = "563869347.003481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "1144">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OtisZipApp.DetailViewController.getAllFilesFromPath(path: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "OtisZipApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srinivas/Projects/Japan_App/OtisZipApp/OtisZipApp/DetailViewController.swift"
+                  timestampString = "563869347.006735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "4938">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

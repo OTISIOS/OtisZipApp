@@ -1,0 +1,33 @@
+PODS:
+  - AppCenter (1.9.0):
+    - AppCenter/Analytics (= 1.9.0)
+    - AppCenter/Crashes (= 1.9.0)
+  - AppCenter/Analytics (1.9.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.9.0)
+  - AppCenter/Crashes (1.9.0):
+    - AppCenter/Core
+  - AppCenter/Distribute (1.9.0):
+    - AppCenter/Core
+  - AppCenter/Push (1.9.0):
+    - AppCenter/Core
+  - SSZipArchive (2.1.4)
+
+DEPENDENCIES:
+  - AppCenter
+  - AppCenter/Distribute
+  - AppCenter/Push
+  - SSZipArchive
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppCenter
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  AppCenter: 3cf7b9387549e9703dab068793e404013e8c0cc1
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+
+PODFILE CHECKSUM: f33095b23575cbbfad3836d54c805384541d28ec
+
+COCOAPODS: 1.5.3
