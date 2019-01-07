@@ -1,6 +1,0 @@
-framework module Pods_OtisZipApp {
-  umbrella header "Pods-OtisZipApp-umbrella.h"
-
-  export *
-  module * { export * }
-}
