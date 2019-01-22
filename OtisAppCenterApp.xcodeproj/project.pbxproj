@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC36979821F6FCF7007FB57F /* OtisAppCenterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC36979721F6FCF7007FB57F /* OtisAppCenterAppUITests.swift */; };
+		AC3697A621F70136007FB57F /* OtisAppCenterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3697A521F70136007FB57F /* OtisAppCenterAppTests.swift */; };
 		AC7196652194491E0053E0D9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC7196642194491E0053E0D9 /* LICENSE.txt */; };
 		AC71966721944D5D0053E0D9 /* LicenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71966621944D5D0053E0D9 /* LicenceViewController.swift */; };
 		AC815FA4214296550037FDC1 /* MITLicence.html in Resources */ = {isa = PBXBuildFile; fileRef = AC815FA3214296540037FDC1 /* MITLicence.html */; };
@@ -20,7 +22,30 @@
 		FD0274E34F13B380F7C5F792 /* libPods-OtisAppCenterApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E67F52B929B740A90426FB08 /* libPods-OtisAppCenterApp.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AC36979A21F6FCF7007FB57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFA4F6D211067AE00DB7BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFA4F74211067AE00DB7BFA;
+			remoteInfo = OtisAppCenterApp;
+		};
+		AC3697A821F70136007FB57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFA4F6D211067AE00DB7BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFA4F74211067AE00DB7BFA;
+			remoteInfo = OtisAppCenterApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		AC36979521F6FCF7007FB57F /* OtisAppCenterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtisAppCenterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC36979721F6FCF7007FB57F /* OtisAppCenterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtisAppCenterAppUITests.swift; sourceTree = "<group>"; };
+		AC36979921F6FCF7007FB57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3697A321F70135007FB57F /* OtisAppCenterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtisAppCenterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3697A521F70136007FB57F /* OtisAppCenterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtisAppCenterAppTests.swift; sourceTree = "<group>"; };
+		AC3697A721F70136007FB57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7196642194491E0053E0D9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		AC71966621944D5D0053E0D9 /* LicenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenceViewController.swift; sourceTree = "<group>"; };
 		AC815FA3214296540037FDC1 /* MITLicence.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MITLicence.html; sourceTree = "<group>"; };
@@ -39,6 +64,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC36979221F6FCF7007FB57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3697A021F70135007FB57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACFA4F72211067AE00DB7BFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +98,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AC36979621F6FCF7007FB57F /* OtisAppCenterAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC36979721F6FCF7007FB57F /* OtisAppCenterAppUITests.swift */,
+				AC36979921F6FCF7007FB57F /* Info.plist */,
+			);
+			path = OtisAppCenterAppUITests;
+			sourceTree = "<group>";
+		};
+		AC3697A421F70136007FB57F /* OtisAppCenterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC3697A521F70136007FB57F /* OtisAppCenterAppTests.swift */,
+				AC3697A721F70136007FB57F /* Info.plist */,
+			);
+			path = OtisAppCenterAppTests;
+			sourceTree = "<group>";
+		};
 		ACFA4F6C211067AE00DB7BFA = {
 			isa = PBXGroup;
 			children = (
 				ACFA4F77211067AE00DB7BFA /* OtisAppCenter */,
+				AC36979621F6FCF7007FB57F /* OtisAppCenterAppUITests */,
+				AC3697A421F70136007FB57F /* OtisAppCenterAppTests */,
 				ACFA4F76211067AE00DB7BFA /* Products */,
 				8FCAD927F19CA3EBC3F06482 /* Pods */,
 				AECC3590D5AE30BD30A7763D /* Frameworks */,
@@ -73,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				ACFA4F75211067AE00DB7BFA /* OtisAppCenterApp.app */,
+				AC36979521F6FCF7007FB57F /* OtisAppCenterAppUITests.xctest */,
+				AC3697A321F70135007FB57F /* OtisAppCenterAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +167,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AC36979421F6FCF7007FB57F /* OtisAppCenterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC36979E21F6FCF7007FB57F /* Build configuration list for PBXNativeTarget "OtisAppCenterAppUITests" */;
+			buildPhases = (
+				AC36979121F6FCF7007FB57F /* Sources */,
+				AC36979221F6FCF7007FB57F /* Frameworks */,
+				AC36979321F6FCF7007FB57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC36979B21F6FCF7007FB57F /* PBXTargetDependency */,
+			);
+			name = OtisAppCenterAppUITests;
+			productName = OtisAppCenterAppUITests;
+			productReference = AC36979521F6FCF7007FB57F /* OtisAppCenterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AC3697A221F70135007FB57F /* OtisAppCenterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3697AA21F70136007FB57F /* Build configuration list for PBXNativeTarget "OtisAppCenterAppTests" */;
+			buildPhases = (
+				AC36979F21F70135007FB57F /* Sources */,
+				AC3697A021F70135007FB57F /* Frameworks */,
+				AC3697A121F70135007FB57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3697A921F70136007FB57F /* PBXTargetDependency */,
+			);
+			name = OtisAppCenterAppTests;
+			productName = OtisAppCenterAppTests;
+			productReference = AC3697A321F70135007FB57F /* OtisAppCenterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		ACFA4F74211067AE00DB7BFA /* OtisAppCenterApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACFA4F89211067AE00DB7BFA /* Build configuration list for PBXNativeTarget "OtisAppCenterApp" */;
@@ -131,10 +228,18 @@
 		ACFA4F6D211067AE00DB7BFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Otis;
 				TargetAttributes = {
+					AC36979421F6FCF7007FB57F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACFA4F74211067AE00DB7BFA;
+					};
+					AC3697A221F70135007FB57F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ACFA4F74211067AE00DB7BFA;
+					};
 					ACFA4F74211067AE00DB7BFA = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -154,11 +259,27 @@
 			projectRoot = "";
 			targets = (
 				ACFA4F74211067AE00DB7BFA /* OtisAppCenterApp */,
+				AC36979421F6FCF7007FB57F /* OtisAppCenterAppUITests */,
+				AC3697A221F70135007FB57F /* OtisAppCenterAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AC36979321F6FCF7007FB57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3697A121F70135007FB57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACFA4F73211067AE00DB7BFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +335,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC36979121F6FCF7007FB57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC36979821F6FCF7007FB57F /* OtisAppCenterAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC36979F21F70135007FB57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3697A621F70136007FB57F /* OtisAppCenterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACFA4F71211067AE00DB7BFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,6 +363,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC36979B21F6FCF7007FB57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFA4F74211067AE00DB7BFA /* OtisAppCenterApp */;
+			targetProxy = AC36979A21F6FCF7007FB57F /* PBXContainerItemProxy */;
+		};
+		AC3697A921F70136007FB57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFA4F74211067AE00DB7BFA /* OtisAppCenterApp */;
+			targetProxy = AC3697A821F70136007FB57F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACFA4F7E211067AE00DB7BFA /* Main.storyboard */ = {
@@ -247,6 +397,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AC36979C21F6FCF7007FB57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XGZYVQ6U6J;
+				INFOPLIST_FILE = OtisAppCenterAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otis..OtisAppCenterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a81390dc-f487-47ef-abe5-2f9e88264a27";
+				PROVISIONING_PROFILE_SPECIFIER = LuisDevelopmentProfile;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OtisAppCenterApp;
+			};
+			name = Debug;
+		};
+		AC36979D21F6FCF7007FB57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XGZYVQ6U6J;
+				INFOPLIST_FILE = OtisAppCenterAppUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otis..OtisAppCenterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a81390dc-f487-47ef-abe5-2f9e88264a27";
+				PROVISIONING_PROFILE_SPECIFIER = LuisDevelopmentProfile;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OtisAppCenterApp;
+			};
+			name = Release;
+		};
+		AC3697AB21F70136007FB57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGZYVQ6U6J;
+				INFOPLIST_FILE = OtisAppCenterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otis..OtisAppCenterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtisAppCenterApp.app/OtisAppCenterApp";
+			};
+			name = Debug;
+		};
+		AC3697AC21F70136007FB57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGZYVQ6U6J;
+				INFOPLIST_FILE = OtisAppCenterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otis..OtisAppCenterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtisAppCenterApp.app/OtisAppCenterApp";
+			};
+			name = Release;
+		};
 		ACFA4F87211067AE00DB7BFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,7 +613,10 @@
 				DEVELOPMENT_TEAM = XGZYVQ6U6J;
 				INFOPLIST_FILE = OtisAppCenter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.otis.appcenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a81390dc-f487-47ef-abe5-2f9e88264a27";
@@ -391,7 +636,10 @@
 				DEVELOPMENT_TEAM = XGZYVQ6U6J;
 				INFOPLIST_FILE = OtisAppCenter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.otis.appcenterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a81390dc-f487-47ef-abe5-2f9e88264a27";
@@ -404,6 +652,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC36979E21F6FCF7007FB57F /* Build configuration list for PBXNativeTarget "OtisAppCenterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC36979C21F6FCF7007FB57F /* Debug */,
+				AC36979D21F6FCF7007FB57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3697AA21F70136007FB57F /* Build configuration list for PBXNativeTarget "OtisAppCenterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3697AB21F70136007FB57F /* Debug */,
+				AC3697AC21F70136007FB57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ACFA4F70211067AE00DB7BFA /* Build configuration list for PBXProject "OtisAppCenterApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

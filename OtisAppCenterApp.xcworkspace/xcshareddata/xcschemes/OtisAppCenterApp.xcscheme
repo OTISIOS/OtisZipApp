@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC36979421F6FCF7007FB57F"
+               BuildableName = "OtisAppCenterAppUITests.xctest"
+               BlueprintName = "OtisAppCenterAppUITests"
+               ReferencedContainer = "container:OtisAppCenterApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AC3697A221F70135007FB57F"
+               BuildableName = "OtisAppCenterAppTests.xctest"
+               BlueprintName = "OtisAppCenterAppTests"
+               ReferencedContainer = "container:OtisAppCenterApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
