@@ -40,4 +40,21 @@ class OtisAppCenterAppUITests: XCTestCase {
        
     }
 
+    func testExample2() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let addButton = app.navigationBars["Master"].buttons["Add"]
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        
+    }
 }
